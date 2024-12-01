@@ -7,8 +7,15 @@
 </head>
 <body>
     <h1>Terima Kasih Karena Kakak Selalu Bersama :)</h1>
+    <button id="web3">Klik ini Kakak :></button>
     <p></p>
     <style>
+        #web3{
+            background-color: aqua;
+            position:absolute;
+            box-sizing: 100px;
+            width: 10%;
+        }
         h1{
             font-family: 'MyCustomfont', sans-serif;
             color: palegoldenrod;
@@ -31,5 +38,10 @@
       font-style: normal;
     }
     </style>
+    <script>
+        document.getElementById('web3').addEventListener('click',function(){
+            window.open('main3.html','_self');
+        })
+    </script>
 </body>
 </html>
